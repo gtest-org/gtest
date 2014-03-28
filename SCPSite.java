@@ -36,7 +36,7 @@ import com.jcraft.jsch.SftpException;
 import com.jcraft.jsch.UserInfo;
 
 /**
- *
+ * A comment
  * @author Ramil Israfilov
  * just a comment here
  *
