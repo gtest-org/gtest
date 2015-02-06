@@ -1,0 +1,10 @@
+Verified+2: JenkinsDev
+Code-Review+2: Khai Do <zaro0508@gmail.com>
+Verified+2: Khai Do <zaro0508@gmail.com>
+Workflow+1: Khai Do <zaro0508@gmail.com>
+Verified+1: Zuul Dev <zuul@zuul-dev.openstack.org>
+Submitted-by: Khai Do <zaro0508@gmail.com>
+Submitted-at: Thu, 05 Feb 2015 23:27:25 +0000
+Reviewed-on: https://review-dev.openstack.org/5313
+Project: gtest-org/gtest
+Branch: refs/heads/master
