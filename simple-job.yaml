@@ -1,0 +1,18 @@
+- job:
+    name: simple
+#    logrotate:
+#      daysToKeep: 3
+#    concurrent: true
+#    node: centos
+#    wrapper:
+#      - build-timeout:
+#    builders:
+#      - shell: 'echo my test'
+#    publishers:
+#      - archive:
+#          artifacts: '*.tar.gz'
+#          allow-empty: 'true'
+    hipchat:
+       enabled: true
+       room: My Room
+       start-notify: true
