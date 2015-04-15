@@ -72,6 +72,7 @@ public class SCPSite extends AbstractDescribableImpl<SCPSite> {
         }
     }
 
+    # add a comment
     public String getKeyfile() {
         return keyfile;
     }
