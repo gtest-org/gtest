@@ -1,7 +1,1 @@
-one
-two
-three
-four
-five
-another entry
-zuul me up
+one two three four five another entry zuul me up
