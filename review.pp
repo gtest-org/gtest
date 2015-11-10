@@ -234,3 +234,5 @@ class openstack_project::review (
     backup_server => 'ci-backup-rs-ord.openstack.org',
   }
 }
+
+# This is a comment
