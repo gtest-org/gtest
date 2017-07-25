@@ -1,0 +1,10 @@
+Verified+1: Jenkins
+Code-Review+2: Clark Boylan <clark.boylan@gmail.com>
+TC-Vote+1: Clark Boylan <clark.boylan@gmail.com>
+Verified+2: Clark Boylan <clark.boylan@gmail.com>
+Workflow+1: Clark Boylan <clark.boylan@gmail.com>
+Submitted-by: Clark Boylan <clark.boylan@gmail.com>
+Submitted-at: Tue, 25 Jul 2017 23:05:39 +0000
+Reviewed-on: https://review-dev.openstack.org/107959
+Project: gtest-org/gtest
+Branch: refs/heads/master
