@@ -8,10 +8,10 @@
           comment: (?i)^(Patch Set [0-9]+:)?( [\w\\+-]*)*(\n\n)?\s*(recheck|reverify)
     success:
       gerrit:
-        verified: 1
+        Verified: 1
     failure:
       gerrit:
-        verified: -1
+        Verified: -1
 
 - pipeline:
     name: gate
@@ -21,28 +21,28 @@
         open: True
         current-patchset: True
         approval:
-          - verified: [1, 2]
+          - Verified: [1, 2]
             username: cboylan
-          - workflow: 1
+          - Workflow: 1
     trigger:
       gerrit:
         - event: comment-added
           approval:
-            - workflow: 1
+            - Workflow: 1
         - event: comment-added
           approval:
-            - verified: 1
+            - Verified: 1
           username: cboylan
     start:
       gerrit:
-        verified: 0
+        Verified: 0
     success:
       gerrit:
-        verified: 2
+        Verified: 2
         submit: true
     failure:
       gerrit:
-        verified: -2
+        Verified: -2
 
 - project:
     name: gtest-org/gtest
