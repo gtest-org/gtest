@@ -49,3 +49,6 @@
     check:
       jobs:
         - noop
+    gate:
+      jobs:
+        - noop
