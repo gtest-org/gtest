@@ -17,12 +17,13 @@
     name: gate
     manager: dependent
     require:
-      open: True
-      current-patchset: True
-      approval:
-        - verified: [1, 2]
-          username: cboylan
-        - workflow: 1
+      gerrit:
+        open: True
+        current-patchset: True
+        approval:
+          - verified: [1, 2]
+            username: cboylan
+          - workflow: 1
     trigger:
       gerrit:
         - event: comment-added
