@@ -13,6 +13,36 @@
       gerrit:
         verified: -1
 
+- pipeline:
+    name: gate
+    manager: dependent
+    require:
+      open: True
+      current-patchset: True
+      approval:
+        - verified: [1, 2]
+          username: cboylan
+        - workflow: 1
+    trigger:
+      gerrit:
+        - event: comment-added
+          approval:
+            - workflow: 1
+        - event: comment-added
+          approval:
+            - verified: 1
+          username: cboylan
+    start:
+      gerrit:
+        verified: 0
+    success:
+      gerrit:
+        verified: 2
+        submit: true
+    failure:
+      gerrit:
+        verified: -2
+
 - project:
     name: gtest-org/gtest
     check:
