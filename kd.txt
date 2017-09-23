@@ -8,3 +8,5 @@ foobar
 and again
 
 now testing zuulv2 with the case sensitivity patch.
+
+test ps created hook args
